@@ -1,0 +1,26 @@
+{
+  "name": "caesura",
+  "version": "0.0.1",
+  "description": "A reasonable way to handle breakpoints using @custom-media",
+  "main": "caesura.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dbox/caesura.git"
+  },
+  "keywords": [
+    "caesura",
+    "css",
+    "breakpoint",
+    "custom-media"
+  ],
+  "style": "caesura.css",
+  "author": "dbox",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dbox/caesura/issues"
+  },
+  "homepage": "https://github.com/dbox/caesura#readme"
+}
