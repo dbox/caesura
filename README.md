@@ -39,23 +39,23 @@ Breakpoint:     320px       448px         768px         1024px       1280px     
 
 ```
 :root {                                 
-  @custom-media --xs (width < 20em);
-  @custom-media --s (width < 28em);
-  @custom-media --m (width < 48em);
-  @custom-media --l (width < 64em);
-  @custom-media --xl (width < 80em);
-  @custom-media --hd (width < 112.5em);
+  @custom-media --xs (width < 320px);
+  @custom-media --s (width < 448px);
+  @custom-media --m (width < 768px);
+  @custom-media --l (width < 1024px);
+  @custom-media --xl (width < 1280px);
+  @custom-media --hd (width < 1800px);
 
-  @custom-media --above-xs (width >= 20em);
-  @custom-media --above-s (width >= 28em);  
-  @custom-media --above-m (width >= 48em);
-  @custom-media --above-l (width >= 64em);
-  @custom-media --above-xl (width >= 80em);
-  @custom-media --above-hd (width >= 112.5em);
+  @custom-media --above-xs (width >= 320px);
+  @custom-media --above-s (width >= 448px);
+  @custom-media --above-m (width >= 768px);
+  @custom-media --above-l (width >= 1024px);
+  @custom-media --above-xl (width >= 1280px);
+  @custom-media --above-hd (width >= 1800px);
 
   @custom-media --retina (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi);
   @custom-media --landscape (orientation: landscape);
-  @custom-media --portrait (orientation: portrait);  
+  @custom-media --portrait (orientation: portrait); 
 }
 ```
 
