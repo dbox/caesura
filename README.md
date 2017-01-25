@@ -22,7 +22,7 @@ Install with npm:
 Make sure you have [postcss-import](https://github.com/postcss/postcss-import) and [@custom-media](https://github.com/postcss/postcss-custom-media) (or cssnext) installed, then import caesura at the top of your css:
 
 ```
-@import @caesura;
+@import 'caesura';
 
 <!-- Your css code here -->
 ```
