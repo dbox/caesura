@@ -31,21 +31,21 @@ That's it!
 ### The scale
 
 ```
-     20em         28em      48em       64em       80em      112.5em
-    (320px)     (448px)    (768px)    (1024px)   (1280px)   (1800px)
-──────┬────── ────┬───── ────┬───── ────┬───── ────┬───── ────┬─────
-    '--xs'       '--s'     '--m'      '--l'      '--xl'    '--hd'
+Breakpoint:      20em         28em          48em          64em           80em        112.5em
+ px value*:    (320px)       (448px)       (768px)       (1024px)      (1280px)      (1800px)
+            ──────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────
+      Name:    '--xs'        '--s'         '--m'         '--l'         '--xl'        '--hd'
 ```
-(Pixel sizes are based on 16px base font size.)
+*Pixel sizes are based on 16px base font size.
 
 ```
-:root {                                   /* px size at 16px base font */
-  @custom-media --xs (width < 20em);      /* 320px */
-  @custom-media --s (width < 28em);       /* 448px */
-  @custom-media --m (width < 48em);       /* 768px */
-  @custom-media --l (width < 64em);       /* 1024px */
-  @custom-media --xl (width < 80em);      /* 1280px */
-  @custom-media --hd (width < 112.5em);   /* 1800px */  
+:root {                                 
+  @custom-media --xs (width < 20em);
+  @custom-media --s (width < 28em);
+  @custom-media --m (width < 48em);
+  @custom-media --l (width < 64em);
+  @custom-media --xl (width < 80em);
+  @custom-media --hd (width < 112.5em);
 
   @custom-media --above-xs (width >= 20em);
   @custom-media --above-s (width >= 28em);  
