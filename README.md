@@ -31,10 +31,10 @@ That's it!
 ### The scale
 
 ```
-Breakpoint:      20em         28em          48em          64em           80em        112.5em
- px value*:    (320px)       (448px)       (768px)       (1024px)      (1280px)      (1800px)
-            ──────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────
-      Name:    '--xs'        '--s'         '--m'         '--l'         '--xl'        '--hd'
+Breakpoint:      20em       28em          48em          64em           80em             112.5em
+ px value*:    (320px)     (448px)       (768px)       (1024px)      (1280px)           (1800px)
+            ──────┬───────────┬─────────────┬─────────────┬─────────────┬──────────────────┬─────
+      Name:    '--xs'       '--s'         '--m'         '--l'        '--xl'              '--hd'
 ```
 *Pixel sizes are based on 16px base font size.
 
