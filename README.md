@@ -9,7 +9,7 @@ Caesura is a reasonable breakpoint scale using [@custom-media](https://github.co
 .foo {
   border: 1px solid green;
 
-  @media (--above-l) {
+  @media (--xl) {
     border: 3px solid red
   }
 ```
