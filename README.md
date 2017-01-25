@@ -19,7 +19,7 @@ Caesura is a reasonable breakpoint scale using [@custom-media](https://github.co
 Install with npm:
 `npm install caesura`
 
-And make sure you have [postcss-import](https://github.com/postcss/postcss-import) and [@custom-media](https://github.com/postcss/postcss-custom-media) (or cssnext) installed, then just import caeura at the top of your css:
+Make sure you have [postcss-import](https://github.com/postcss/postcss-import) and [@custom-media](https://github.com/postcss/postcss-custom-media) (or cssnext) installed, then import caesura at the top of your css:
 
 ```
 @import @caesura
