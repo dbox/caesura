@@ -3,7 +3,7 @@
 [![npm version](https://badge.fury.io/js/caesura.svg)](https://badge.fury.io/js/caesura)
 
 Caesura is a reasonable breakpoint scale using [@custom-media](https://github.com/postcss/postcss-custom-media).
-> **Note:** This project is in early development, and versioning is a little different. [Read this](http://markup.im/#q4_cRZ1Q) for more details. Axis will not go to v1.0 until stylus has done so.
+> **Note:** This project is in early development, and versioning is a little different. [Read this](http://markup.im/#q4_cRZ1Q) for more details.
 
 ```css
 .foo {
