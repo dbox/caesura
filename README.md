@@ -36,7 +36,7 @@ Breakpoint:     320px       448px         768px         1024px       1280px     
       Name:    '--xs'       '--s'         '--m'         '--l'        '--xl'              '--hd'
 ```
 
-```                           
+```css
 @custom-media --xs (width < 320px);
 @custom-media --s (width < 448px);
 @custom-media --m (width < 768px);
