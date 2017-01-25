@@ -1,7 +1,7 @@
 {
   "name": "caesura",
-  "version": "0.0.1",
-  "description": "A reasonable way to handle breakpoints using @custom-media",
+  "version": "0.1.0",
+  "description": "A reasonable breakpoint scale using @custom-media",
   "main": "caesura.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
